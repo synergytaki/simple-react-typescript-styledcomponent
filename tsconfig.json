@@ -10,7 +10,7 @@
     // 定義ファイル(.d.js)を出力する
     "declaration": false,
     // 定義ファイルの出力先フォルダ名(webpackの設定と合わせておく)
-    "outDir": "./js",
+    "outDir": "./core",
     "target": "es5",
     "module": "es2015",
     "jsx": "react",

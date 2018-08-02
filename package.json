@@ -1,23 +1,23 @@
 {
-  "name": "simple-react-es6",
-  "version": "1.0.6",
+  "name": "simple-react-typescript-styledcomponent",
+  "version": "1.0.0",
   "description": "",
   "private": false,
-  "main": "dist/index.js",
+  "main": "core/index.js",
   "scripts": {
     "start": "webpack-dev-server --config=webpack.dev.js",
     "build": "webpack --config=webpack.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synergytaki/simple-react-es6.git"
+    "url": "git+https://github.com/synergytaki/simple-react-typescript-styledcomponent.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/synergytaki/simple-react-es6/issues"
+    "url": "https://github.com/synergytaki/simple-react-typescript-styledcomponent/issues"
   },
-  "homepage": "https://github.com/synergytaki/simple-react-es6#readme",
+  "homepage": "https://github.com/synergytaki/simple-react-typescript-styledcomponent#readme",
   "peerDependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
@@ -33,11 +33,9 @@
     "tslint-config-airbnb": "^5.9.2",
     "tslint-loader": "^3.6.0",
     "tslint-react": "^3.6.0",
+    "typescript": "^3.0.1",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
-  },
-  "dependencies": {
-    "typescript": "^3.0.1"
   }
 }
